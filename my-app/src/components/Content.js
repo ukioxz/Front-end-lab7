@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-let firstElem = document.getElementById('full_name');
-let secondElem = document.querySelector('.my_date');
+import mistoImg from './misto.jpg';
 
 const randomSetColor = () => "#" + Math.floor(Math.random() * 16777215).toString(16);
 
@@ -44,7 +43,9 @@ class Content extends Component {
   8-літню школу № 1, створили першу бібліотеку по вул. К.Маркса, 1 та літній кінотеатр.
   Господарчі організації Вишневого наводили за свій рахунок порядок на вулицях
   Залізничній і Лесі Українки.</p>
-      
+  <a href="https://uk.wikipedia.org/wiki/%D0%92%D0%B8%D1%88%D0%BD%D0%B5%D0%B2%D0%B5_(%D0%BC%D1%96%D1%81%D1%82%D0%BE)">
+                    <img src={mistoImg} style={{overflow: 'hidden', width: 500}} alt="misto" width="500px" />
+                </a>
       </div> 
     );
   }

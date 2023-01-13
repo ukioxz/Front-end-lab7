@@ -1,0 +1,14 @@
+.card {
+    border-radius: 30px;
+    width: 400px;
+    padding: 10px;
+    color: black;
+    background-color:lightblue;
+    font-weight: bold;
+  }
+  
+.card img {
+    border-radius: 18px;
+    width: auto;
+    height: 200px;   
+}

@@ -1,0 +1,13 @@
+.goodsInfo {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 30px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
