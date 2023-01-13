@@ -3,13 +3,6 @@ import './Header.css';
 
 const randomSetColor = () => "#" + Math.floor(Math.random() * 16777215).toString(16);
 
-/*function Header() {
- return (
- <header>
-    <h2 onClick={this.randomSetColor}>Васильєва Марина Юріївна</h2>
- </header>
- )
-}*/
 class Header extends Component {
    constructor () {
      super();
